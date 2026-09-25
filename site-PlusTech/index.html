@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlusTech - Empresa de Web Design, AI & Desenvolvimento de Sites</title>
+
+    <!-- Fontes Google (Plus Jakarta Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome para Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Ficheiro CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header / Navegação -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-text">PLUSTECH</span>
+                <span class="badge-ai">AI & WEB</span>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#inicio" class="nav-link active">Início</a>
+                <a href="#agencia" class="nav-link">Agência</a>
+                <a href="#servicos" class="nav-link">Serviços</a>
+                <a href="#portfolio" class="nav-link">Portfólio</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+                <a href="#contactos" class="nav-link btn-nav-mobile">Pedir Orçamento</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="#contactos" class="btn btn-primary nav-btn">Pedir Orçamento</a>
+                <button class="hamburger" id="hamburger" aria-label="Abrir Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fa-solid fa-bolt"></i> Agência de Web Design & Automação AI em Portugal
+                </div>
+                <h1>Transformamos tecnologia em <span class="gradient-text">vantagem competitiva</span>.</h1>
+                <p>Desenvolvemos websites de alta performance, Agentes de AI, automações inteligentes e estratégias de
+                    marketing digital que poupam tempo, aumentam pedidos de orçamento e geram mais vendas.</p>
+                <div class="hero-buttons">
+                    <a href="#servicos" class="btn btn-primary btn-lg">Saber Mais <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#portfolio" class="btn btn-outline btn-lg">Ver Portfólio</a>
+                </div>
+                <div class="hero-trust">
+                    <div class="trust-avatars">
+                        <span class="avatar">⭐</span>
+                        <span class="avatar">🚀</span>
+                        <span class="avatar">💻</span>
+                    </div>
+                    <div class="trust-text">
+                        <strong>+200 Projetos Entregues</strong> com sucesso em Portugal e na Europa.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gráfico / Ilustração Tech criada em SVG -->
+            <div class="hero-visual">
+                <div class="tech-card-wrapper">
+                    <div class="glass-card main-card">
+                        <div class="card-header-bar">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span class="card-title-text">plustech_ai_system.js</span>
+                        </div>
+                        <div class="card-body-code">
+                            <p><span class="code-purple">import</span> { <span class="code-cyan">AiAgent</span>, <span
+                                    class="code-cyan">WebPerformance</span> } <span class="code-purple">from</span>
+                                <span class="code-green">'@plustech/core'</span>;
+                            </p>
+                            <p><span class="code-blue">const</span> agency = <span class="code-purple">new</span> <span
+                                    class="code-yellow">PlusTechEngine</span>();</p>
+                            <p>agency.<span class="code-blue">optimizeConversions</span>({ speed: <span
+                                    class="code-orange">'100%'</span>, leads: <span class="code-orange">'+350%'</span>
+                                });</p>
+                            <div class="code-result">
+                                <i class="fa-solid fa-circle-check"></i> Automação ativa e pronta a gerar resultados.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cards Flutuantes de Métricas -->
+                    <div class="glass-card float-card float-1">
+                        <div class="float-icon green-bg"><i class="fa-solid fa-chart-line"></i></div>
+                        <div>
+                            <small>Conversão de Leads</small>
+                            <strong>+185% em 30 dias</strong>
+                        </div>
+                    </div>
+
+                    <div class="glass-card float-card float-2">
+                        <div class="float-icon purple-bg"><i class="fa-solid fa-robot"></i></div>
+                        <div>
+                            <small>Agente de AI Integrado</small>
+                            <strong>Atendimento 24/7</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Estatísticas / Métricas -->
+    <section class="stats-section">
+        <div class="container stats-grid">
+            <div class="stat-item">
+                <h2>10+</h2>
+                <p>Anos de Experiência</p>
+            </div>
+            <div class="stat-item">
+                <h2>250+</h2>
+                <p>Websites & Apps Criados</p>
+            </div>
+            <div class="stat-item">
+                <h2>99%</h2>
+                <p>Clientes Satisfeitos</p>
+            </div>
+            <div class="stat-item">
+                <h2>24/7</h2>
+                <p>Suporte & AI Ativo</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre a Agência -->
+    <section class="about-section" id="agencia">
+        <div class="container about-grid">
+            <div class="about-text">
+                <span class="section-tag">A Nossa Agência</span>
+                <h2>Inovação, transparência e paixão pelo mundo digital.</h2>
+                <p>Na PlusTech, somos uma equipa jovem, multidisciplinar e altamente focada em resultados. Desenvolvemos
+                    soluções em parceria com os nossos clientes, criando relações de proximidade para contribuir para a
+                    sua eficiência e competitividade no mercado.</p>
+
+                <div class="about-features">
+                    <div class="about-feature">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <div>
+                            <h4>Transparência Total</h4>
+                            <p>Acompanhe cada etapa do desenvolvimento do seu projeto em tempo real.</p>
+                        </div>
+                    </div>
+                    <div class="about-feature">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <div>
+                            <h4>Segurança & Eficiência</h4>
+                            <p>Sistemas rápidos, seguros e prontos para responder às necessidades do negócio.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-graphic">
+                <div class="graphic-box">
+                    <div class="circle-blur"></div>
+                    <i class="fa-solid fa-laptop-code big-icon"></i>
+                    <h3>Transformação Digital Focada em Retorno</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section class="services-section" id="servicos">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-tag">O Que Fazemos</span>
+                <h2>Soluções completas para fazer a sua empresa crescer</h2>
+                <p>Da conceção do website à automação com Inteligência Artificial e marketing digital estratégico.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Serviço 1 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+                    <h3>Web Development</h3>
+                    <p>Desenvolvemos websites e plataformas e-commerce funcionais, ultrarrápidas e à medida das
+                        necessidades do seu negócio.</p>
+                    <a href="#contactos" class="service-link">Saber Mais <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Serviço 2 -->
+                <div class="service-card highlight-card">
+                    <div class="badge-card">Mais Requisitado</div>
+                    <div class="service-icon"><i class="fa-solid fa-brain"></i></div>
+                    <h3>Agentes de AI & Automação</h3>
+                    <p>Implementamos agentes virtuais de AI e fluxos de trabalho automáticos que poupam tempo e atendem
+                        clientes 24h por dia.</p>
+                    <a href="#contactos" class="service-link">Saber Mais <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Serviço 3 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-compass-drafting"></i></div>
+                    <h3>Web Design & UX/UI</h3>
+                    <p>Design estratégico impulsionado por dados e usabilidade, focado em transformar visitantes em
+                        clientes compradores.</p>
+                    <a href="#contactos" class="service-link">Saber Mais <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Serviço 4 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-bullhorn"></i></div>
+                    <h3>Marketing Digital & SEO</h3>
+                    <p>Posicionamos a sua marca nos primeiros lugares do Google (SEO) e gerimos campanhas de anúncios
+                        com elevado retorno.</p>
+                    <a href="#contactos" class="service-link">Saber Mais <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Serviço 5 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-headset"></i></div>
+                    <h3>Suporte & Manutenção</h3>
+                    <p>Apoio contínuo e manutenção preventiva para garantir que os seus sistemas funcionam sempre sem
+                        falhas.</p>
+                    <a href="#contactos" class="service-link">Saber Mais <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Serviço 6 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                    <h3>Lojas Online E-Commerce</h3>
+                    <p>Criação de lojas virtuais completas, com gestão de inventário, pagamentos MB WAY, Multibanco e
+                        Stripe.</p>
+                    <a href="#contactos" class="service-link">Saber Mais <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfólio com Filtro -->
+    <section class="portfolio-section" id="portfolio">
+        <div class="container">
+            <div class="section-header flex-header">
+                <div>
+                    <span class="section-tag">Portfólio</span>
+                    <h2>Projetos em Destaque</h2>
+                </div>
+                <!-- Botões de Filtro -->
+                <div class="portfolio-filter">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="web">Websites</button>
+                    <button class="filter-btn" data-filter="ai">AI & Apps</button>
+                    <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+                </div>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Projeto 1 -->
+                <div class="portfolio-card clickable-card" data-category="web" id="project-guru" role="button"
+                    tabindex="0">
+                    <div class="portfolio-img bg-img-1">
+                        <span class="portfolio-tag">#Webdesign #Website</span>
+                        <div class="portfolio-hover-overlay">
+                            <span class="btn-view-project"><i class="fa-solid fa-eye"></i> Ver Projeto &
+                                Fotografias</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Guru das Viagens <i class="fa-solid fa-arrow-up-right-from-square card-icon-link"></i></h3>
+                        <p>Plataforma web interativa e otimizada para reserva de viagens. <span
+                                class="click-hint">Clique para ver o projeto e galeria.</span></p>
+                    </div>
+                </div>
+
+                <!-- Projeto 2 -->
+                <div class="portfolio-card" data-category="ai">
+                    <div class="portfolio-img bg-img-2">
+                        <span class="portfolio-tag">#Webapps #AI</span>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>App #ViajaAgora & Agente AI</h3>
+                        <p>Assistente virtual inteligente para recomendação personalizada de roteiros.</p>
+                    </div>
+                </div>
+
+                <!-- Projeto 3 -->
+                <div class="portfolio-card" data-category="ecommerce">
+                    <div class="portfolio-img bg-img-3">
+                        <span class="portfolio-tag">#E-commerce #Design</span>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Recantü Store</h3>
+                        <p>Loja online de alta conversão com integração total de pagamentos.</p>
+                    </div>
+                </div>
+
+                <!-- Projeto 4 -->
+                <div class="portfolio-card" data-category="web">
+                    <div class="portfolio-img bg-img-4">
+                        <span class="portfolio-tag">#Webdesign #SEO</span>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Portugal Travel Center</h3>
+                        <p>Website corporativo responsivo orientado a captação de leads internacionais.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ / Perguntas Frequentes -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-tag">Dúvidas Frequentes</span>
+                <h2>Perguntas Frequentes</h2>
+                <p>Esclareça as questões mais comuns antes de iniciar o seu projeto connosco.</p>
+            </div>
+
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>O que faz a PlusTech e como pode ajudar o meu negócio?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>A PlusTech é uma agência especializada no desenvolvimento de websites por medida, agentes
+                            virtuais de AI, automações empresariais e estratégias de marketing digital. Ajudamos a sua
+                            empresa a modernizar-se, automatizar tarefas e aumentar as vendas online.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Quanto tempo demora a criação de um website ou Agente de AI?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>O prazo varia consoante a complexidade do projeto. Um website institucional ou landing page
+                            costuma demorar entre 2 a 4 semanas, enquanto lojas e sistemas com automação AI requerem
+                            normalmente entre 4 a 8 semanas.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Como funcionam os Agentes de AI para atendimento ao cliente?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Treinamos a Inteligência Artificial com as informações reais da sua empresa (catálogo,
+                            preços, FAQ). O agente é integrado no seu site ou WhatsApp e responde instantaneamente aos
+                            clientes 24 horas por dia, 7 dias por semana.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Prestam apoio técnico e manutenção após a entrega?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sim! Acompanhamos todos os nossos clientes com planos de suporte técnico, manutenção contínua
+                            de servidores, atualizações de segurança e backups diários.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulário de Contacto / Pedir Orçamento -->
+    <section class="contact-section" id="contactos">
+        <div class="container contact-grid">
+            <div class="contact-info">
+                <span class="section-tag">Contacte-nos</span>
+                <h2>Tem um projeto em mente?<br>Vamos conversar!</h2>
+                <p>Preencha o formulário ou fale diretamente com a nossa equipa para receber uma proposta personalizada.
+                </p>
+
+                <div class="contact-details">
+                    <div class="detail-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <small>Telefone Geral</small>
+                            <strong>+351 256 001 959</strong>
+                        </div>
+                    </div>
+
+                    <div class="detail-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <small>Email para Orçamentos</small>
+                            <strong>orcamentos@plustech.pt</strong>
+                        </div>
+                    </div>
+
+                    <div class="detail-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <small>Localização</small>
+                            <strong>Edifício Sanjotec, São João da Madeira - Portugal</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-card-form">
+                <h3>Pedir Orçamento Gratuito</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nome Completo *</label>
+                        <input type="text" id="name" required placeholder="O seu nome">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" required placeholder="exemplo@empresa.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telemóvel *</label>
+                            <input type="tel" id="phone" required placeholder="+351 910 000 000">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Serviço Pretendido</label>
+                        <select id="service">
+                            <option value="web">Web Design / Criar Website</option>
+                            <option value="ai">Agente AI & Automação</option>
+                            <option value="ecommerce">Loja Online E-Commerce</option>
+                            <option value="marketing">Marketing Digital & SEO</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Mensagem / Detalhes do Projeto *</label>
+                        <textarea id="message" rows="4" required
+                            placeholder="Descreva brevemente o que pretende..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block">Enviar Pedido <i
+                            class="fa-solid fa-paper-plane"></i></button>
+                    <div id="formSuccess" class="form-success-msg">✓ Mensagem enviada com sucesso! Entraremos em
+                        contacto brevemente.</div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="#" class="logo">
+                    <span class="logo-text">PLUSTECH</span>
+                </a>
+                <p>Agência de Web Design, desenvolvimento de sites, automações com AI e marketing digital em Portugal.
+                </p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#agencia">Agência</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Serviços</h4>
+                <ul>
+                    <li><a href="#servicos">Web Development</a></li>
+                    <li><a href="#servicos">Agentes de AI</a></li>
+                    <li><a href="#servicos">SEO & Marketing</a></li>
+                    <li><a href="#servicos">E-Commerce</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Sanjotec</h4>
+                <p>Rua dos Fundões, nº 151<br>3700-121 São João da Madeira<br>Portugal</p>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <p>&copy; 2026 PlusTech. Todos os direitos reservados.</p>
+            <div class="legal-links">
+                <a href="#">Termos e Condições</a>
+                <a href="#">Política de Privacidade</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal do Projeto Guru das Viagens (WeTravel) -->
+    <div class="portfolio-modal" id="modal-guru" aria-hidden="true" role="dialog">
+        <div class="modal-backdrop" id="backdropGuru"></div>
+        <div class="modal-container">
+            <button class="modal-close" id="closeModalGuru" aria-label="Fechar modal">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="modal-header">
+                <div class="modal-header-badge">
+                    <span class="portfolio-tag">#Webdesign #Website #AgênciaViagens</span>
+                    <span class="badge-featured"><i class="fa-solid fa-star"></i> Projeto em Destaque</span>
+                </div>
+                <h2>Guru das Viagens (WeTravel)</h2>
+                <p class="modal-subtitle">Plataforma web de nova geração para pesquisa e reserva de viagens
+                    personalizadas, voos, hotéis e experiências.</p>
+            </div>
+
+            <div class="modal-meta-grid">
+                <div class="meta-item">
+                    <small>Cliente</small>
+                    <strong>WeTravel / Guru das Viagens</strong>
+                </div>
+                <div class="meta-item">
+                    <small>Serviços</small>
+                    <strong>Web Design, UX/UI, Prototipagem</strong>
+                </div>
+                <div class="meta-item">
+                    <small>Ano</small>
+                    <strong>2026</strong>
+                </div>
+                <div class="meta-item">
+                    <small>Tecnologias</small>
+                    <strong>HTML5, CSS3, JS, AI Engine</strong>
+                </div>
+            </div>
+
+            <div class="modal-body-content">
+                <h3>Resumo do Trabalho & Solução Desenvolvida</h3>
+                <p>
+                    A <strong>PlusTech</strong> desenvolveu a identidade digital e a plataforma web integral para a
+                    <strong>Guru das Viagens (WeTravel)</strong>.
+                    O objetivo principal consistiu em desenhar uma experiência visual atraente, moderna e intuitiva, que
+                    simplifique a descoberta de destinos e permita aos utilizadores personalizar o seu pacote de viagem
+                    de início ao fim.
+                </p>
+
+                <div class="modal-highlights">
+                    <div class="highlight-item">
+                        <i class="fa-solid fa-compass"></i>
+                        <div>
+                            <h4>Página Principal & Destinos Populares</h4>
+                            <p>Interface responsiva com destaque para destinos em voga (Bali, Santorini, Dolomitas,
+                                Tóquio) e integração de avaliações reais de viajantes.</p>
+                        </div>
+                    </div>
+
+                    <div class="highlight-item">
+                        <i class="fa-solid fa-suitcase"></i>
+                        <div>
+                            <h4>Pacotes Flexíveis e Ajustáveis</h4>
+                            <p>Mecanismo de filtragem dinâmica por estilo de viagem (Praia, Montanha, Cidade, Aventura,
+                                Romântico) com preços claros e descontos assinalados.</p>
+                        </div>
+                    </div>
+
+                    <div class="highlight-item">
+                        <i class="fa-solid fa-hotel"></i>
+                        <div>
+                            <h4>Catálogo de Alojamentos Testados</h4>
+                            <p>Apresentação detalhada de hotéis e resorts validados, incluindo tags funcionais (Vista
+                                caldeira, Piscina infinita, Spa, Pequeno-almoço incluído).</p>
+                        </div>
+                    </div>
+
+                    <div class="highlight-item">
+                        <i class="fa-solid fa-plane-departure"></i>
+                        <div>
+                            <h4>Motor de Procura de Voos Simplificado</h4>
+                            <p>Pesquisa rápida de rotas diretas com origem em Portugal (Lisboa, Porto), transparência
+                                total sobre bagagem e alterações tratadas pela agência.</p>
+                        </div>
+                    </div>
+
+                    <div class="highlight-item">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                        <div>
+                            <h4>Experiências & Atividades Únicas</h4>
+                            <p>Catálogo de experiências marcantes (passeios de catamarã, jantares berberes no deserto,
+                                tours gastronómicos) com seleção fácil de duração.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-section-divider"></div>
+
+                <h3>Galeria de Capturas de Ecrã do Projeto</h3>
+                <p class="gallery-hint"><i class="fa-solid fa-magnifying-glass-plus"></i> Clique em qualquer imagem para
+                    abrir em modo de ecrã inteiro.</p>
+
+                <div class="modal-gallery-grid">
+                    <div class="gallery-card" data-img="images/guru-1-home.png"
+                        data-caption="Página Principal & Pesquisa de Destinos - Guru das Viagens">
+                        <div class="gallery-img-wrapper">
+                            <img src="images/guru-1-home.png" alt="Página Principal Guru das Viagens" loading="lazy">
+                            <div class="gallery-zoom-overlay"><i class="fa-solid fa-expand"></i> Ampliar Imagem</div>
+                        </div>
+                        <div class="gallery-caption">
+                            <strong>1. Página Inicial & Pesquisa de Destinos</strong>
+                            <small>Design responsivo e focado na conversão de novos clientes.</small>
+                        </div>
+                    </div>
+
+                    <div class="gallery-card" data-img="images/guru-2-pacotes.png"
+                        data-caption="Pacotes Prontos e Ajustáveis ao Seu Ritmo - Guru das Viagens">
+                        <div class="gallery-img-wrapper">
+                            <img src="images/guru-2-pacotes.png" alt="Pacotes de Viagem Ajustáveis" loading="lazy">
+                            <div class="gallery-zoom-overlay"><i class="fa-solid fa-expand"></i> Ampliar Imagem</div>
+                        </div>
+                        <div class="gallery-caption">
+                            <strong>2. Pacotes Prontos & Ajustáveis</strong>
+                            <small>Filtros por tipo de viagem com indicação clara de preço por pessoa.</small>
+                        </div>
+                    </div>
+
+                    <div class="gallery-card" data-img="images/guru-3-hoteis.png"
+                        data-caption="Alojamentos Recomendados e Validados - Guru das Viagens">
+                        <div class="gallery-img-wrapper">
+                            <img src="images/guru-3-hoteis.png" alt="Alojamentos Selecionados" loading="lazy">
+                            <div class="gallery-zoom-overlay"><i class="fa-solid fa-expand"></i> Ampliar Imagem</div>
+                        </div>
+                        <div class="gallery-caption">
+                            <strong>3. Alojamentos que Já Dormimos</strong>
+                            <small>Seleção rigorosa de hotéis com comodidades e tarifas transparentes.</small>
+                        </div>
+                    </div>
+
+                    <div class="gallery-card" data-img="images/guru-4-voos.png"
+                        data-caption="Pesquisa e Comparação de Voos a partir de Portugal - Guru das Viagens">
+                        <div class="gallery-img-wrapper">
+                            <img src="images/guru-4-voos.png" alt="Motor de Busca de Voos" loading="lazy">
+                            <div class="gallery-zoom-overlay"><i class="fa-solid fa-expand"></i> Ampliar Imagem</div>
+                        </div>
+                        <div class="gallery-caption">
+                            <strong>4. Motor de Procura de Voos</strong>
+                            <small>Sugestão das melhores rotas com apoio humano na gestão de viagens.</small>
+                        </div>
+                    </div>
+
+                    <div class="gallery-card" data-img="images/guru-5-experiencias.png"
+                        data-caption="Catálogo de Experiências e Atividades Locais - Guru das Viagens">
+                        <div class="gallery-img-wrapper">
+                            <img src="images/guru-5-experiencias.png" alt="Catálogo de Experiências Locais"
+                                loading="lazy">
+                            <div class="gallery-zoom-overlay"><i class="fa-solid fa-expand"></i> Ampliar Imagem</div>
+                        </div>
+                        <div class="gallery-caption">
+                            <strong>5. Experiências & Atividades</strong>
+                            <small>Atividades imperdíveis organizadas por categoria e tempo de duração.</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer-cta">
+                    <div class="cta-text">
+                        <h4>Quer um site ou plataforma com esta qualidade para o seu negócio?</h4>
+                        <p>Criamos soluções web por medida, ultrarrápidas e com design premium.</p>
+                    </div>
+                    <a href="#contactos" class="btn btn-primary" id="btnCtaModal">Pedir Orçamento Gratuito <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox de Ampliação de Imagem -->
+    <div class="lightbox-overlay" id="lightboxOverlay" aria-hidden="true">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Fechar vista ampliada"><i
+                class="fa-solid fa-xmark"></i></button>
+        <div class="lightbox-content">
+            <img src="" alt="Vista ampliada do projeto" id="lightboxImg">
+            <div class="lightbox-caption" id="lightboxCaption"></div>
+        </div>
+    </div>
+
+    <!-- Ficheiro JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
